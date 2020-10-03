@@ -1,0 +1,10 @@
+clr
+ls
+dir dump
+cd dump
+echo hello all
+pause
+help
+history
+environ
+exit
