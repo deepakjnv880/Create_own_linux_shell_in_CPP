@@ -7,15 +7,25 @@ Fork this repo and then clone it :-
 
     git clone https://github.com/deepakjnv880/Create_own_linux_shell_in_CPP.git
     
-Go to the folder Time-table-assist-tool :-
+Go to the folder Create_own_linux_shell_in_CPP :-
 
     cd  Create_own_linux_shell_in_CPP
 
 G++ complier version 7.5.0 is used.
 
+Go to the folder code:-
+
+    cd  code
+
 Run the code :-
 
-    code/./a.out
+    /a.out
+   
+
+In the case you want to change the code and run:-
+
+    g++ main.cpp
+    /a.out
 
 # File Structure
 The file structure of this repo is same as any other good project. After entering main folder there is one readme file, assignment pdf and code folder.
