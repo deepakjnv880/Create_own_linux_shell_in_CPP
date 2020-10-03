@@ -5,7 +5,7 @@ It is group [LAB ASSIGNMENT 1](/CS307_Assignment_1__2020__OS.pdf) of CS307-Syste
 # Getting Started
 Fork this repo and then clone it :-
 
-    git clone https://github.com/deepakjnv880/SYSTEM_PRACTICUM-LAB1-Create_own_linux_shell_in_CPP
+    git clone https://github.com/deepakjnv880/Create_own_linux_shell_in_CPP.git
     
 Go to the folder Time-table-assist-tool :-
 
