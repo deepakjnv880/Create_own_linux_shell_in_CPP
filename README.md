@@ -9,7 +9,7 @@ Fork this repo and then clone it :-
     
 Go to the folder Time-table-assist-tool :-
 
-    cd  SYSTEM_PRACTICUM-LAB1-Create_own_linux_shell_in_CPP
+    cd  Create_own_linux_shell_in_CPP
 
 G++ complier version 7.5.0 is used.
 
