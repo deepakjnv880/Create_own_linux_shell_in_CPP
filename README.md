@@ -19,13 +19,13 @@ Go to the folder code:-
 
 Run the code :-
 
-    /a.out
+    ./a.out
    
 
 In the case you want to change the code and run:-
 
     g++ main.cpp
-    /a.out
+    ./a.out
 
 # File Structure
 The file structure of this repo is same as any other good project. After entering main folder there is one readme file, assignment pdf and code folder.
