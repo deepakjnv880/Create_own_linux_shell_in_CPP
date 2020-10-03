@@ -1,9 +1,3 @@
-// https://stackoverflow.com/questions/347949/how-to-convert-a-stdstring-to-const-char-or-char
-// https://stackoverflow.com/questions/17929414/how-to-use-setenv-to-export-a-variable-in-c
-// https://stackoverflow.com/questions/17335816/clear-screen-using-c
-// https://www.sanfoundry.com/c-program-list-files-directory/
-// https://stackoverflow.com/questions/26497315/c-meaning-of-waitnull-when-executing-fork-in-parallel
-
 #include<bits/stdc++.h>
 #include<unistd.h>
 #include <dirent.h>
@@ -53,18 +47,12 @@ string resolv_path(string s){
 
 void builtin_cd(vector<string> &TOKENS){
   int n=TOKENS.size();
-  if(n>2){
-    cout<<"ERROR : Number of argument provided with `cd` are wrong. only 1 or 2 argument are expetecd with `cd`."<<endl;
-  }
-  else if(n==1){
-    cout<<getcwd(NULL, 0)<<endl;
-  }
+  if(n>2)cout<<"ERROR : Number of argument provided with `cd` are wrong. only 1 or 2 argument are expetecd with `cd`."<<endl;
+  else if(n==1)cout<<getcwd(NULL, 0)<<endl;
   else{
     //chdir return 0 on succes
     string path=resolv_path(TOKENS[1]);
-    if(chdir(path.c_str())!=0){
-      cout<<"ERROR : Specified directory `"<<path<<"` doesn’t exist."<<endl;
-    }
+    if(chdir(path.c_str())!=0)cout<<"ERROR : Specified directory `"<<path<<"` doesn’t exist."<<endl;
   }
 }
 
@@ -75,7 +63,7 @@ void builtin_dir(vector<string> &TOKENS){
     cout<<"ERROR : Number of argument provided with `dir` are wrong. only 1 or 2 argument are expetecd with `cd`."<<endl;
     return ;
   }
-  else if (n==1)path=getcwd(NULL, 0);
+  else if (n==1)path=getcwd(NULL,0);
   else path=resolv_path(TOKENS[1]);
   //open directory and store correspoding pointer
   DIR *d=opendir(path.c_str());
@@ -125,7 +113,6 @@ int file_present(string filename){
      cout<<"ERROR : Specified file path `"<<filename<<"` is a directory, not a file."<<endl;
      return 2;
     }
-
     // ENOTDIR error come when a file was specified instead of directory.
     if(errno == ENOTDIR)return 1;
 
@@ -187,9 +174,7 @@ void run_builtin_command(vector<string> &TOKENS,char **env){
       cout<<"ERROR : Argument provided with `myshell` is wrong. Only `batchfile` keyword is expetecd with `myshell`."<<endl;
     }
     else if (file_present(filename)==1) {
-      if (!file_present(filename)) {
-        cout<<"ERROR : Specified file `batchfile` doesn't exist in current location."<<endl;
-      }
+      if (!file_present(filename))cout<<"ERROR : Specified file `batchfile` doesn't exist in current location."<<endl;
       fstream fp;
       string line;
       fp.open(filename.c_str());
@@ -204,9 +189,7 @@ void run_builtin_command(vector<string> &TOKENS,char **env){
   //bonus
   else if (TOKENS[0]=="cat") {
     string filename = resolv_path(TOKENS[1]);
-    if(TOKENS.size()!=2){
-      cout<<"ERROR : Number of argument provided with `cat` are wrong. Only 2 argument are expetecd with `cat`."<<endl;
-    }
+    if(TOKENS.size()!=2)cout<<"ERROR : Number of argument provided with `cat` are wrong. Only 2 argument are expetecd with `cat`."<<endl;
     else if (file_present(filename)==1) {
       fstream fp;
       string line;

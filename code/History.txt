@@ -1,82 +1,3 @@
-myshell batchfile
-clr
-ls
-cd dump
-dir dump
-echo hello all
-pause
-help
-history
-environ
-exit
-quit
-myshell bacthfile
-myshell batchfile
-clr
-ls
-cd dump
-dir dump
-echo hello all
-pause
-help
-history
-environ
-exit
-dir dump
-dir a
-cd ccdsnncnsdc sdocsd ncds
-sdjc sdinvsd iosdnvsd sdv
-sdv vinsd vsdinnv sd
-sdc dsv d vdsvs
-cd sfsvsd
-dir
-dir dump
-cd dump
-dir dump
-dir dum
-dir dump
-cd dump
-dir dump
-exit
-dfvf
-help
-help
-help
-help
-apuse
-pause
-pause
-quit
-dir dump
-dir /
-dir sump
-dur dump
-dir dump
-help
-help
-quit
-help
-help
-myshell batchfile
-clr
-ls
-cd dump
-dir dump
-echo hello all
-pause
-help
-history
-environ
-exit
-quir
-quit
-help
-clr
-clr
-clr
-myshell batchfile
-clr
-ls
 dir dump
 cd dump
 echo hello all
@@ -85,3 +6,4 @@ help
 history
 environ
 exit
+quit
