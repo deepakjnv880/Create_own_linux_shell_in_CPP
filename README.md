@@ -1,5 +1,5 @@
 # Create own linux shell in C++
-It is group [LAB ASSIGNMENT 1](/CS307_Assignment_1__2020__OS.pdf) under CS307-System Practicum(Course facutly - 	
+It is group [LAB ASSIGNMENT 1](/CS307_Assignment_1__2020__OS.pdf) of CS307-System Practicum(Course faculty - 	
 [Aditya Nigam](https://faculty.iitmandi.ac.in/~aditya/)). </br>
 
 # Getting Started
