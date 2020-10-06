@@ -19,20 +19,20 @@ map<string, string> builtin_command_details{
                                               { "history"," -> Display a list of previously executed commands"},
                                               { "myshell batchfile"," -> execute the command in filenamed `batchfile`"}
                                             };
-queue<string>queue;
+
 string path=string(getcwd(NULL, 0));
 string history_file_path=string(getcwd(NULL, 0))+"/History.txt";
 
 void initilize_shell()
 {
-    cout << "\033[2J\033[1;1H";
+    cout << "\033[2J\033[1;1H";////This is a string of special characters that translate to clear the screen command.
     string main="****************************************************";
     cout<<main<<endl;
     cout<<"***********"<<"YOU ARE WELCOME IN MY SHELL"<<"**************"<<endl;
     string username = getenv("USER");
     cout<<"***********USER : ";
     cout<<username;
-    for(int i=0;i<(20-username.length());i++)cout<<" ";
+    for(unsigned int i=0;i<(20-username.length());i++)cout<<" ";
     cout<<"**************"<<endl;
     cout<<main<<endl;
 }
@@ -147,7 +147,7 @@ void run_builtin_command(vector<string> &TOKENS,char **env){
     while (*env)cout<<*env++<<endl;
     cout<<endl<<"=========== CURRENT SHELL ENVIROMENT ================"<<endl;
     cout<<"PWD="<<getcwd(NULL, 0)<<endl;
-    cout<<"shell="<<path<<"/a.out"<<endl;
+    cout<<"shell="<<path<<"/lab1"<<endl;
   }
   else if(TOKENS[0]=="history"){
     fstream fp;
@@ -156,10 +156,10 @@ void run_builtin_command(vector<string> &TOKENS,char **env){
     while (getline(fp,line))cout<<line<<endl;
   }
   else if (TOKENS[0]=="clr") {
-    cout << "\033[2J\033[1;1H";
+    cout << "\033[2J\033[1;1H";//This is a string of special characters to clear the screen.
   }
   else if (TOKENS[0]=="echo") {
-    for(int i=1;i<TOKENS.size();i++)cout<<TOKENS[i]<<" ";
+    for(unsigned int i=1;i<TOKENS.size();i++)cout<<TOKENS[i]<<" ";
     cout<<endl;
   }
   else if(TOKENS[0]=="dir"){
@@ -183,7 +183,7 @@ void run_builtin_command(vector<string> &TOKENS,char **env){
   }
   else if (TOKENS[0]=="pause") {
     char ch='a';
-    cout<<"Currently SHELL is paused, Press ENTER to resume."<<endl;
+    cout<<"Currently SHELL is paused, Press [ENTER] to resume."<<endl;
     while(ch!='\n')ch=getchar();
   }
   //bonus
@@ -208,7 +208,7 @@ void run_the_command(string s,char **env){
     }
     else{
       cout<<"ERROR : INVALID COMMAND `";
-      for(auto i=0;i<TOKENS.size();i++)if(i==TOKENS.size()-1)cout<<TOKENS[i];else cout<<TOKENS[i]<<" ";
+      for(unsigned int i=0;i<TOKENS.size();i++)if(i==TOKENS.size()-1)cout<<TOKENS[i];else cout<<TOKENS[i]<<" ";
       cout<<"`."<<endl;
     }
   }

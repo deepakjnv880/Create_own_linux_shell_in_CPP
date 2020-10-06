@@ -2,30 +2,24 @@
 It is group [LAB ASSIGNMENT 1](/CS307_Assignment_1__2020__OS.pdf) of CS307-System Practicum(Course faculty - 	
 [Aditya Nigam](https://faculty.iitmandi.ac.in/~aditya/)). </br>
 
-# Getting Started
-Fork this repo and then clone it :-
+# Language used
+C++ with G++ complier version 7.5.0 is used.
 
-    git clone https://github.com/deepakjnv880/Create_own_linux_shell_in_CPP.git
-    
-Go to the folder Create_own_linux_shell_in_CPP :-
+# Libraries used
+bits/stdc++ , dirent and unistd libraries are used.
 
-    cd  Create_own_linux_shell_in_CPP
+# [Youtube demo and explanation](https://youtu.be/ghlSUnWvPHU)
 
-G++ complier version 7.5.0 is used.
-
+# How to run
 Go to the folder code:-
 
-    cd  code
+    cd code
 
 Run the code :-
 
-    ./a.out
-   
-
-In the case you want to change the code and run:-
-
-    g++ main.cpp
-    ./a.out
+    make clean
+    make all
+    ./lab1
 
 # File Structure
 The file structure of this repo is same as any other good project. After entering main folder there is one readme file, assignment pdf and code folder.
@@ -39,6 +33,7 @@ The file structure of this repo is same as any other good project. After enterin
 
 # Group member
 [Deepak Kumar](https://github.com/deepakjnv880)  
+[Dinbandhu](https://github.com/deepakjnv880)  
 
 # Refrences
 https://stackoverflow.com/questions/347949/how-to-convert-a-stdstring-to-const-char-or-char  

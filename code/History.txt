@@ -1,9 +1,52 @@
-dir dump
-cd dump
-echo hello all
+help
+cd /home/deepakjnv880/SYSTEM PRACTICUM
+quit
+cd /home/deepakjnv880/
+cd /home/deepakjnv880/SYSTEM_PRACTICUM/LAB1
+cd LAB1
+clr
+cd /home/deepakjnv880/SYSTEM_PRACTICUM
+cdLAB1/code
+cd LAB1/code
+cd /home/deepakjnv880/SYSTEM_PRACTICUM/LAB1
+cd code
+cd /home/deepakjnv880/SYSTEM_PRACTICUM
+environ
+cd /home/deepakjnv880/SYSTEM_PRACTICUM/LAB1
+environ
+clr
+dir
+dir /home/deepakjnv880/SYSTEM_PRACTICUM
+clr
+dir /home/deepakjnv880/SYSTEM_PRACTICUM
+environ
+echo deepak
 pause
+help
+quit
+history
+environ
+environ
+environ
+environ
+cd /home/deepakjnv880/SYSTEM_PRACTICUM
+environ
+clr
+dir LAB1
+environ
+echo deepak
+pause
+help
+quit
+history
+environ
+cat batchfile
+myshell batchfile
+clr
+ls
+echo hello all
 help
 history
 environ
-exit
 quit
+help
