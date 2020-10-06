@@ -24,16 +24,16 @@ Run the code :-
 # File Structure
 The file structure of this repo is same as any other good project. After entering main folder there is one readme file, assignment pdf and code folder.
 
-# Want to contibute? [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/PS-Ddevil/Time-table-assist-tool/issues)
+# Want to contibute? [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/deepakjnv880/Create_own_linux_shell_in_CPP/issues)
 * [Fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) the repository into your account.
-* Either work according to the given [issues](https://github.com/PS-Ddevil/Time-table-assist-tool/issues) or [raise new issue](https://github.com/PS-Ddevil/Time-table-assist-tool/issues/new)
+* Either work according to the given [issues](https://github.com/deepakjnv880/Create_own_linux_shell_in_CPP/issues) or [raise new issue](https://github.com/deepakjnv880/Create_own_linux_shell_in_CPP/issues/new)
 * Make changes and [commit](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project) them to user local repository.
 * Make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) with the details about the changes.
 * Pull request will be merged once being checked by the moderator.
 
 # Group member
 [Deepak Kumar](https://github.com/deepakjnv880)  
-[Dinbandhu](https://github.com/deepakjnv880)  
+[Dinbandhu Kumar Singh](https://github.com/DinbandhuKumarSingh)  
 
 # Refrences
 https://stackoverflow.com/questions/347949/how-to-convert-a-stdstring-to-const-char-or-char  
