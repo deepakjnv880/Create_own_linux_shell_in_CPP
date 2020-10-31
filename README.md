@@ -34,7 +34,6 @@ The file structure of this repo is same as any other good project. After enterin
 # Group member
 Group id - 20  
 [Deepak Kumar](https://github.com/deepakjnv880)  
-[Dinbandhu Kumar Singh](https://github.com/DinbandhuKumarSingh)  
 
 # Refrences
 https://stackoverflow.com/questions/347949/how-to-convert-a-stdstring-to-const-char-or-char  
